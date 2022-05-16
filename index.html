@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeApi</title>
+    <!--CSS-->
+    <link href="content/css/Site.css" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> -->
+    <!--CSS-->
+</head>
+
+<body>
+    <div id="container">
+        <img id="logo" src="content/images/pokeApi.png" alt="">
+        <section id="stnSearch">
+            <form id="form-pokemon">
+                <h2>Buscador de Pokemones</h2>
+                <p style="color:darkgray;">Busca desde pokemones hasta abilidades de los mismos.</p>
+                <div id="labels">
+                    <h5 id="lblName">Tipo de Búsqueda</h5>
+                    <h5 id="lblSearch">Tipo de Búsqueda</h5>
+                </div>
+                <div id="controles">
+                    <input id="name-Pokemon" name="name-Pokemon" type="text">
+                    <select name="pokemo-search-type" id="pokemo-search-type">
+                        <option value="Abilility">Abilility</option>
+                        <option value="pokemon">Pokemon</option>
+                    </select>
+                </div>
+                <di id="botones">
+                    <input type="button" value="Limpar" id="btnClean">
+                    <button type="submit">Buscar</button>
+                </di>
+            </form>
+        </section>
+        <section id="pokemon-finder-response">
+        </section>
+    </div>
+    <script src="content/js/poke.js"></script>
+    <script src="content/js/index.js"></script>
+    <!--<section>
+        <form id="form-pokemon">
+            <div id="stn-search-pokemon">
+
+                <p>
+                    <h2 style="padding-top: 24%;">Buscador de Pokemones</h2>
+                    
+                </p>
+                <label for="pokemo-search-type">Tipo de Búsqueda</label></br>
+                <label for="pokemo-search-type">Tipo de Búsqueda</label></br>
+                <input name="name-Pokemon" type="text"></br>
+                 <input name="name-Pokemon" type="text">
+                <select name="search-type" id="pokemo-search-type">
+                    <option value="php">Abilility</option>
+                    <option value="java">Pokemon</option>
+                </select> 
+                </br></br>
+            </div>
+        </form>
+    </section>-->
+</body>
+</html>

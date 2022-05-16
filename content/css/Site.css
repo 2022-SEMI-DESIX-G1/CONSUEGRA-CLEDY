@@ -1,0 +1,215 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v24/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw0aXpsog.woff2)
+    format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
+}
+
+#logo{
+  position: relative;
+  width: 280px;
+  left: 32%;
+  height: 120px;
+  margin-top: 30px;
+  z-index: 1;
+}
+
+#container{
+  display: block;
+  width: 800px;
+  min-height: 500px;
+}
+
+#stnSearch{
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 254, 254);
+  border-radius: 5px;
+  width: 40%;
+  min-height: 250px;
+  margin-top: -55px;
+  left: 30%;
+}
+
+#labels{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 0;
+  margin-top: -10px;
+  
+}
+
+#controles{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 0;
+  margin-top: -15px;
+  padding-bottom: 10px;
+  
+}
+
+#name-Pokemon{
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(216, 216, 218, 0.616);
+  width: 46%;
+  height: 20px;
+  margin-top: 10px;
+  
+}
+#pokemo-search-type{
+  display: flex;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(216, 216, 218, 0.616);
+  width: 46%;
+  height: 23px;
+  margin-top: 10px;
+  
+}
+
+#botones{
+  display: flex;
+  justify-content:space-between;
+  width: 100%;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 0;
+  margin-top: 10px;
+  
+}
+
+#botones button[type="submit"]{
+  width: 25%;
+  height: 25px;
+  background-color: rgb(47, 170, 226);
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 12px;
+  
+  
+}
+#botones #btnClean{
+  width: 25%;
+  height: 25px;
+  cursor: pointer;
+  background-color: rgb(47, 170, 226);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 12px;
+  
+}
+
+
+#pokemon-finder-response{
+  display: flex;
+  justify-content: center;
+  width: 68%;
+  min-height: 30%;
+  margin-top: 30%;
+  position: relative;
+  left: 16%;
+  text-align: center;
+  border-radius: 5px;
+  
+
+}
+
+
+/*
+======================================================
+        SECCION CARACTERISTICAS
+======================================================
+*/
+
+#stnCaracteristicas{
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  left: 16%;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+
+}
+
+#label1{
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  width: 100%;   
+}
+
+#imagenes{
+  display: flex;
+  margin-top: -30px;
+  justify-content:space-between;
+  font-size: 14px;
+  color: gray;
+  align-items: center;
+  width: 100%;
+ 
+  
+}
+#label2{
+  display: flex;
+  margin-top: -30px;
+  justify-content:space-between;
+  font-size: 14px;
+  align-items: center;
+  width: 100%;
+  
+}
+#habilidades{
+  display: inline-flex;
+  margin-top: -30px;
+  justify-content:space-between;
+  align-items: center;
+  width: 100%;
+  font-size: 14px;
+  color: gray;
+  line-height: 21px;
+  text-align: left;
+}
+
+#abilities{
+  display: inline-block;
+}
+
+#imgs{
+  display: flex;
+}
+
+#dif{
+  display: block;
+  width: 80%;
+  height: 100%;
+  line-height: 12px;
+  
+}
+
+#dif h1{
+  display: flex;
+}
